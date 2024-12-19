@@ -1,0 +1,19 @@
+.title-div{
+    background-image: url('/assets/images/Untitled.png');
+    background-repeat: no-repeat;
+    height: 426px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.welcome-text{
+    color: rgb(255, 65, 160);
+    font-size: 40px;
+    text-align: center;
+    margin: 25px;
+    border-bottom: 1px solid rgb(255, 65, 160);
+    
+}
