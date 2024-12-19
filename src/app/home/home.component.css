@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'MinhaFonte'; /* Nome da fonte para referência */
+    src: url('/assets/fonts/sPlaywriteESDecoGuides-Regular.ttf') format('woff2'); /* Formato WOFF2 */
+        
+    font-weight: normal; /* Opcional: define o peso da fonte */
+    font-style: normal;  /* Opcional: define o estilo da fonte */
+}
+
 .title-div{
     background-image: url('/assets/images/Untitled.png');
     background-repeat: no-repeat;
@@ -16,4 +24,30 @@
     margin: 25px;
     border-bottom: 1px solid rgb(255, 65, 160);
     
+}
+
+.products-cta{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 500px 25px 500px;
+    padding: 10px 0;
+    list-style: none;
+    font-weight: bolder;
+    font-family: 'MinhaFonte';
+}
+
+.type{
+    color: rgb(255, 65, 160);
+}
+
+.type img{
+    height: 100px ;
+    background-color: pink;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.type div{
+    color:rgb(255, 65, 160);
+    text-align: center;
 }
