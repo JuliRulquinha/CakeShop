@@ -1,4 +1,14 @@
-.button-bold{
+.filters{
+    display: flex;
+    padding: 25px 200px;
+    justify-content: space-between;
+}
+
+.filters button{
+    width: 100px;
+}
+
+.button{
     background-color: rgb(255, 0, 119);
     color: white;
     padding: 10px;
@@ -10,4 +20,8 @@
 
 .container{
     border-bottom: 2px solid #ff85d6;
+}
+
+.products{
+    list-style: none;
 }
