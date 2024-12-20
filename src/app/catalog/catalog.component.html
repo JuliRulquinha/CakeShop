@@ -14,8 +14,8 @@
     </div>
 
 </div>
-<ul class="products">
+<ul class="products" *ngFor="let product of products">
     <li class="product-item">
-
+        <groceries-product-details [product]="product"></groceries-product-details>
     </li>
 </ul>

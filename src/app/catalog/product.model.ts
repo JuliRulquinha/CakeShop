@@ -12,7 +12,7 @@ let products: IProduct[]= [
     {
         id: 1,
         name: 'Strawberry cheesecake',
-        imageName: '/assets/images/products/cheesecake-morango',
+        imageName: '/assets/images/products/cheesecake-morango.jpg',
         category: 'Cheesecake',
         price: 25
     },
@@ -20,7 +20,7 @@ let products: IProduct[]= [
     {
         id: 2,
         name: 'Mixed berries cheesecake',
-        imageName: '/assets/images/products/cheesecake-frutas-vermelhas',
+        imageName: '/assets/images/products/cheesecake-frutas-vermelhas.png',
         category: 'Cheesecake',
         price: 25
     },
@@ -28,7 +28,7 @@ let products: IProduct[]= [
     {
         id: 3,
         name: 'Chocolate cake',
-        imageName: '/assets/images/products/bolo-de-chocolate',
+        imageName: '/assets/images/products/bolo-de-chocolate.jpg',
         category: 'Cake',
         price: 20
     },
@@ -36,7 +36,7 @@ let products: IProduct[]= [
     {
         id: 4,
         name: 'Carrot cake with chocolate flavoured topping',
-        imageName: '/assets/images/products/bolo-de-cenoura',
+        imageName: '/assets/images/products/bolo-de-cenoura.jpg',
         category: 'Cake',
         price: 20
     },
@@ -91,3 +91,5 @@ let products: IProduct[]= [
     
 
 ]
+
+export default products;

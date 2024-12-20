@@ -1,0 +1,32 @@
+.product{
+    border-bottom: 1px solid pink;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.product-detail img{
+    height: 100px;
+}
+
+.name{
+    color: rgb(255, 65, 160);
+    font-size: 30px;
+    font-weight: 400;
+    margin: 4px;
+}
+
+.category{
+    color: rgb(133, 16, 75);
+    font-size: 22px;
+    margin: 4px;
+}
+
+.price{
+    color: green;
+    font-size: 25px
+}
+
+.product-info{
+    padding: 10px;
+}

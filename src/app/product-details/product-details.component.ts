@@ -13,6 +13,7 @@ export class ProductDetailsComponent {
     //@Output() buy = new EventEmitter();
   
     getImageUrl(product: IProduct){
+      debugger;
       if(!product) return '';
       return product.imageName; 
     }
